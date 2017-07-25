@@ -1,0 +1,19 @@
+	Liquid Story - MANUAL.
+
+The aim is to reach the space. Build the highest tower possible, but be careful! If the tower collapses, you will lose the game!
+You may use ice particles to strengthen your structure and vapor particles to support it. Find these particles in the air, by reaching the bonuses.
+
+CONTROLS:
+
+Left Click		Create Particle
+
+Middle Click/Escape	Pause/Unpause
+
+Right Click		Change element
+
+Mouse Wheel		Move camera up/down
+
+Enter			Toggle fullScreen mode on/off
+
+² (Square Key)		Show/Hide console
+

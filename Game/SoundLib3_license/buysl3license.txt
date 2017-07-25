@@ -1,0 +1,34 @@
+::Purchase SoundLib3 license
+As soon as your product is at the point of publishing, you need a license for SoundLib3. 
+
+Non-commercial License (applies to all software given away for free, which is also without further charges)
+- Include SoundLib banner or usage notice on visible place
+- Tell us that you use SoundLib (it's good to see that the work on SL is not for "nothing")
+
+Shareware License (applies to one title sold as "Shareware")
+- 50 Euro
+- Include SoundLib banner or usage notice on visible place
+
+Single Commercial License (applies to only one title; no predecessors or successors)
+- 500 Euro
+- Banners/Notice optional
+
+Unlimited Commercial License (applies to all software packackes from one company)
+- 1500 Euro
+- Banners/Notice optional
+
+::Limitations
+All licenses are per product branch. If you buy a license for version 3.x, it won't cover the
+upgrade to version 4.x. However, cost reduced upgrades will be offered in such cases.
+
+A license applies to the platform (Windows, Mac, etc) you paid for. However, there will be a 
+discount if you buy a license for an additional platform.
+
+You are free to use SoundLib3 for testing purposes until your product is ready for the market. 
+Reselling your license is not allowed. Licensing your product which uses SoundLib to others is not 
+allowed, your licensees need to have their own SoundLib license (contact us if you have a 
+problem with this; there may be other solutions).
+
+::Source code
+It is possible to obtain the SoundLib source code for your own adaptions. Source code is only
+given away under NDA and not for free. Contact us for further details.

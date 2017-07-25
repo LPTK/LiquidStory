@@ -1,0 +1,735 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="78">
+      <Unit0>
+        <Filename Value="ppegame.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ppegame"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="15"/>
+        <UsageCount Value="200"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uMainForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uMainForm"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="15"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\PPE\ppe_uengine.pas"/>
+        <UnitName Value="ppe_uengine"/>
+        <UsageCount Value="5"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="gam_ugame.pas"/>
+        <UnitName Value="gam_uGame"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="41" Y="12"/>
+        <UsageCount Value="101"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="ppe_udisplayer.pas"/>
+        <UnitName Value="ppe_uDisplayer"/>
+        <TopLine Value="25"/>
+        <CursorPos X="73" Y="44"/>
+        <UsageCount Value="15"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="ppe_uparticle.pas"/>
+        <UnitName Value="ppe_uparticle"/>
+        <TopLine Value="1"/>
+        <CursorPos X="40" Y="21"/>
+        <UsageCount Value="15"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="ppe_uengine.pas"/>
+        <UnitName Value="ppe_uengine"/>
+        <TopLine Value="67"/>
+        <CursorPos X="10" Y="88"/>
+        <UsageCount Value="15"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="ppe_utrace.pas"/>
+        <ComponentName Value="Form3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ppe_uTrace"/>
+        <TopLine Value="57"/>
+        <CursorPos X="32" Y="83"/>
+        <UsageCount Value="8"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="ppe_udisplaypoint.pas"/>
+        <UnitName Value="ppe_uDisplayPoint"/>
+        <TopLine Value="31"/>
+        <CursorPos X="5" Y="54"/>
+        <UsageCount Value="14"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="gam_uStupidParticle.pas"/>
+        <UnitName Value="gam_uStupidParticle"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="24" Y="5"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\ParticlesProject_v0.13\uinterface.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uInterface"/>
+        <TopLine Value="326"/>
+        <CursorPos X="11" Y="338"/>
+        <UsageCount Value="6"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="gam_uEyedParticle.pas"/>
+        <UnitName Value="gam_uEyedParticle"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="70" Y="8"/>
+        <UsageCount Value="71"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1114"/>
+        <CursorPos X="15" Y="1129"/>
+        <UsageCount Value="20"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="ppe_upoint.pas"/>
+        <UnitName Value="ppe_uPoint"/>
+        <TopLine Value="11"/>
+        <CursorPos X="23" Y="29"/>
+        <UsageCount Value="4"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="gam_uGameParticle.pas"/>
+        <UnitName Value="gam_uGameParticle"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="11" Y="4"/>
+        <UsageCount Value="79"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\lazarus\fpc\2.2.4\source\rtl\inc\objpash.inc"/>
+        <TopLine Value="161"/>
+        <CursorPos X="46" Y="164"/>
+        <UsageCount Value="8"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="gam_uLiquidParticle.pas"/>
+        <UnitName Value="gam_uLiquidParticle"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="11" Y="4"/>
+        <UsageCount Value="63"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="ppe_ulink.pas"/>
+        <UnitName Value="ppe_uLink"/>
+        <TopLine Value="109"/>
+        <CursorPos X="6" Y="127"/>
+        <UsageCount Value="1"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="gam_uIceParticle.pas"/>
+        <UnitName Value="gam_uIceParticle"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="93"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="C:\lazarus\lcl\graphmath.pp"/>
+        <UnitName Value="GraphMath"/>
+        <TopLine Value="34"/>
+        <CursorPos X="3" Y="47"/>
+        <UsageCount Value="7"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="C:\lazarus\fpc\2.2.4\source\rtl\objpas\classes\classesh.inc"/>
+        <TopLine Value="19"/>
+        <CursorPos X="4" Y="32"/>
+        <UsageCount Value="7"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="C:\lazarus\fpc\2.2.4\source\packages\fcl-image\src\fpcanvas.pp"/>
+        <UnitName Value="FPCanvas"/>
+        <TopLine Value="120"/>
+        <CursorPos X="36" Y="134"/>
+        <UsageCount Value="7"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="C:\lazarus\lcl\graphtype.pp"/>
+        <UnitName Value="GraphType"/>
+        <TopLine Value="1"/>
+        <CursorPos X="10" Y="39"/>
+        <UsageCount Value="7"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\PascalPhysicsEngine\ppe_udisplayer.pas"/>
+        <UnitName Value="ppe_uDisplayer"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="13"/>
+        <UsageCount Value="91"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\PascalPhysicsEngine\ppe_uengine.pas"/>
+        <UnitName Value="ppe_uengine"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="20" Y="69"/>
+        <UsageCount Value="94"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\PascalPhysicsEngine\ppe_utrace.pas"/>
+        <UnitName Value="ppe_uTrace"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="14" Y="7"/>
+        <UsageCount Value="30"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="..\PascalPhysicsEngine\ppe_umaths.pas"/>
+        <UnitName Value="ppe_uMaths"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="24" Y="5"/>
+        <UsageCount Value="24"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="C:\lazarus\fpc\2.2.4\source\rtl\inc\mathh.inc"/>
+        <TopLine Value="59"/>
+        <CursorPos X="58" Y="75"/>
+        <UsageCount Value="4"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="C:\lazarus\fpc\2.2.4\source\rtl\inc\innr.inc"/>
+        <TopLine Value="1"/>
+        <CursorPos X="14" Y="99"/>
+        <UsageCount Value="7"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="gam_uSoundManager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gam_uSoundManager"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="59" Y="8"/>
+        <UsageCount Value="185"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="soundlib3dll.pas"/>
+        <UnitName Value="soundlib3dll"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1014"/>
+        <UsageCount Value="34"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="..\PascalPhysicsEngine\ppe_ulink.pas"/>
+        <UnitName Value="ppe_uLink"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="128"/>
+        <CursorPos X="10" Y="140"/>
+        <UsageCount Value="36"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="..\PascalPhysicsEngine\ppe_uparticle.pas"/>
+        <UnitName Value="ppe_uparticle"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="43" Y="10"/>
+        <UsageCount Value="61"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="..\PascalPhysicsEngine\ppe_udisplaypoint.pas"/>
+        <UnitName Value="ppe_uDisplayPoint"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="39" Y="8"/>
+        <UsageCount Value="29"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="..\PascalPhysicsEngine\ppe_upoint.pas"/>
+        <UnitName Value="ppe_uPoint"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="12" Y="24"/>
+        <UsageCount Value="14"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="gam_uGraphic.pas"/>
+        <UnitName Value="gam_uGraphic"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="48" Y="9"/>
+        <UsageCount Value="62"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="C:\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1854"/>
+        <CursorPos X="22" Y="1935"/>
+        <UsageCount Value="36"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\objpas\classes\classesh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="365"/>
+        <CursorPos X="3" Y="380"/>
+        <UsageCount Value="10"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="ppe_uvapor.pas"/>
+        <UnitName Value="ppe_uVapor"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="2"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="gam_ucloud.pas"/>
+        <UnitName Value="gam_uCloud"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="25" Y="9"/>
+        <UsageCount Value="13"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="gam_uCloudParticle.pas"/>
+        <UnitName Value="gam_uCloudParticle"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="24" Y="6"/>
+        <UsageCount Value="26"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="gam_uVaporParticle.pas"/>
+        <UnitName Value="gam_uVaporParticle"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="24" Y="5"/>
+        <UsageCount Value="54"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="gam_uElementLinks.pas"/>
+        <UnitName Value="gam_uElementLinks"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="17" Y="5"/>
+        <UsageCount Value="23"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="..\PascalPhysicsEngine\sim_uIronlink.pas"/>
+        <UnitName Value="sim_uIronLink"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="107"/>
+        <CursorPos X="23" Y="108"/>
+        <UsageCount Value="13"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\inc\objpash.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="170"/>
+        <CursorPos X="23" Y="185"/>
+        <UsageCount Value="9"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="..\..\ParticlesProject_v0.134_jordan_2\gam_ugame.pas"/>
+        <UnitName Value="gam_uGame"/>
+        <TopLine Value="54"/>
+        <CursorPos X="9" Y="185"/>
+        <UsageCount Value="4"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="..\..\ParticlesProject_v0.134_jordan_2\gam_ugraphic.pas"/>
+        <UnitName Value="gam_uGraphic"/>
+        <TopLine Value="1"/>
+        <CursorPos X="6" Y="10"/>
+        <UsageCount Value="1"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="C:\lazarus\lcl\stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1047"/>
+        <CursorPos X="15" Y="1051"/>
+        <UsageCount Value="32"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="C:\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="39"/>
+        <CursorPos X="1" Y="68"/>
+        <UsageCount Value="36"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="FSForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FullScreenForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FSForm"/>
+        <TopLine Value="15"/>
+        <CursorPos X="63" Y="46"/>
+        <UsageCount Value="132"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="FSForm.lrs"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="1"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="C:\lazarus\lcl\utrace.pp"/>
+        <UnitName Value="UTrace"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="2"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2090"/>
+        <CursorPos X="8" Y="2091"/>
+        <UsageCount Value="37"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\win32\windows.pp"/>
+        <UnitName Value="windows"/>
+        <TopLine Value="36"/>
+        <CursorPos X="6" Y="65"/>
+        <UsageCount Value="12"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="C:\lazarus\lcl\dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="477"/>
+        <CursorPos X="10" Y="493"/>
+        <UsageCount Value="36"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\win\wininc\struct.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="207"/>
+        <CursorPos X="17" Y="223"/>
+        <UsageCount Value="13"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\win\wininc\func.inc"/>
+        <TopLine Value="1"/>
+        <CursorPos X="49" Y="4"/>
+        <UsageCount Value="12"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\win\wininc\defines.inc"/>
+        <TopLine Value="192"/>
+        <CursorPos X="20" Y="213"/>
+        <UsageCount Value="12"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="uOptionsForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="OptionsForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uOptionsForm"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="25" Y="8"/>
+        <UsageCount Value="124"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="uFSForm.pas"/>
+        <UnitName Value="uFSForm"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="42" Y="9"/>
+        <UsageCount Value="32"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\inc\systemh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="3" Y="105"/>
+        <UsageCount Value="9"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32wscontrols.pp"/>
+        <UnitName Value="Win32WSControls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="188"/>
+        <CursorPos X="1" Y="224"/>
+        <UsageCount Value="23"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="gam_uscore.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gam_uScore"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="46" Y="8"/>
+        <UsageCount Value="107"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="uSplashScreen.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SplashScreenForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uSplashScreen"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="11" Y="4"/>
+        <UsageCount Value="68"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="uSplashScreen.lrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="6"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\inc\dosh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="80"/>
+        <CursorPos X="11" Y="96"/>
+        <UsageCount Value="7"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="gam_uBonus.pas"/>
+        <UnitName Value="gam_uBonus"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="20" Y="9"/>
+        <UsageCount Value="23"/>
+      </Unit66>
+      <Unit67>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\objpas\types.pp"/>
+        <UnitName Value="types"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="53"/>
+        <CursorPos X="21" Y="68"/>
+        <UsageCount Value="10"/>
+      </Unit67>
+      <Unit68>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\inc\mathh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="61"/>
+        <CursorPos X="25" Y="76"/>
+        <UsageCount Value="9"/>
+      </Unit68>
+      <Unit69>
+        <Filename Value="C:\lazarus\lcl\lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="3146"/>
+        <CursorPos X="1" Y="3174"/>
+        <UsageCount Value="9"/>
+      </Unit69>
+      <Unit70>
+        <Filename Value="ppegame.lrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="49"/>
+        <CursorPos X="1" Y="65"/>
+        <UsageCount Value="9"/>
+      </Unit70>
+      <Unit71>
+        <Filename Value="gam_uParamGrabber.pas"/>
+        <UnitName Value="gam_uParamGrabber"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="55" Y="8"/>
+        <UsageCount Value="12"/>
+      </Unit71>
+      <Unit72>
+        <Filename Value="..\PascalPhysicsEngine\ppe_uground.pas"/>
+        <UnitName Value="ppe_uGround"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="5" Y="6"/>
+        <UsageCount Value="10"/>
+      </Unit72>
+      <Unit73>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\win32\classes.pp"/>
+        <UnitName Value="Classes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="9"/>
+      </Unit73>
+      <Unit74>
+        <Filename Value="C:\lazarus\lcl\lresources.pp"/>
+        <UnitName Value="LResources"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="9"/>
+      </Unit74>
+      <Unit75>
+        <Filename Value="..\PascalPhysicsEngine\ppe_upropcontainer.pas"/>
+        <UnitName Value="ppe_uPropContainer"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="30" Y="2"/>
+        <UsageCount Value="10"/>
+      </Unit75>
+      <Unit76>
+        <Filename Value="soundlib3.pas"/>
+        <UnitName Value="soundlib3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit76>
+      <Unit77>
+        <Filename Value="vectors.pas"/>
+        <UnitName Value="vectors"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit77>
+    </Units>
+    <JumpHistory Count="11" HistoryIndex="10">
+      <Position1>
+        <Filename Value="gam_ugame.pas"/>
+        <Caret Line="21" Column="23" TopLine="7"/>
+      </Position1>
+      <Position2>
+        <Filename Value="gam_ugame.pas"/>
+        <Caret Line="9" Column="12" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="gam_ugame.pas"/>
+        <Caret Line="487" Column="28" TopLine="471"/>
+      </Position3>
+      <Position4>
+        <Filename Value="gam_ugame.pas"/>
+        <Caret Line="483" Column="47" TopLine="468"/>
+      </Position4>
+      <Position5>
+        <Filename Value="gam_ugame.pas"/>
+        <Caret Line="366" Column="58" TopLine="352"/>
+      </Position5>
+      <Position6>
+        <Filename Value="gam_ugame.pas"/>
+        <Caret Line="307" Column="66" TopLine="293"/>
+      </Position6>
+      <Position7>
+        <Filename Value="gam_ugame.pas"/>
+        <Caret Line="247" Column="27" TopLine="232"/>
+      </Position7>
+      <Position8>
+        <Filename Value="gam_ugame.pas"/>
+        <Caret Line="247" Column="33" TopLine="232"/>
+      </Position8>
+      <Position9>
+        <Filename Value="gam_ugame.pas"/>
+        <Caret Line="122" Column="31" TopLine="93"/>
+      </Position9>
+      <Position10>
+        <Filename Value="gam_ugame.pas"/>
+        <Caret Line="11" Column="16" TopLine="1"/>
+      </Position10>
+      <Position11>
+        <Filename Value="uMainForm.pas"/>
+        <Caret Line="21" Column="38" TopLine="1"/>
+      </Position11>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="LiquidStory"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="..\PascalPhysicsEngine"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

@@ -1,0 +1,5 @@
+
+If you want to use any of the units I made, you may first e-mail me at lionel.parreaux@insa-lyon.fr
+
+vectors.pas, soundlib3dll.pas and soundlib3.pas are units from the SoundLib3 (http://www.crossfire-designs.de/)
+

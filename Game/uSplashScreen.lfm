@@ -1,0 +1,28 @@
+object SplashScreenForm: TSplashScreenForm
+  Left = 898
+  Height = 180
+  Top = 338
+  Width = 400
+  BorderStyle = bsNone
+  Caption = 'SplashScreenForm'
+  ClientHeight = 180
+  ClientWidth = 400
+  FormStyle = fsSplash
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '0.9.30'
+  object Label1: TLabel
+    Left = 62
+    Height = 14
+    Top = 43
+    Width = 50
+    Caption = 'Loading...'
+    ParentColor = False
+  end
+  object Image1: TImage
+    Left = 0
+    Height = 180
+    Top = 0
+    Width = 400
+  end
+end

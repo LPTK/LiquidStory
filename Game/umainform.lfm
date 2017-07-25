@@ -1,0 +1,143 @@
+object Form1: TForm1
+  Cursor = crHandPoint
+  Left = 336
+  Height = 600
+  Top = 105
+  Width = 952
+  BorderIcons = [biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Game'
+  ClientHeight = 600
+  ClientWidth = 952
+  Color = clBlack
+  DefaultMonitor = dmPrimary
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDeactivate = FormDeactivate
+  OnKeyPress = FormKeyPress
+  OnKeyUp = FormKeyUp
+  OnMouseDown = FormMouseDown
+  OnMouseMove = FormMouseMove
+  OnMouseUp = FormMouseUp
+  OnMouseWheel = FormMouseWheel
+  LCLVersion = '0.9.30'
+  object Memo1: TMemo
+    Left = 800
+    Height = 576
+    Top = 0
+    Width = 153
+    Enabled = False
+    Lines.Strings = (
+      'Memo1'
+    )
+    OnClick = Memo1Click
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object pan_pauseMenu: TPanel
+    Left = 328
+    Height = 280
+    Top = 120
+    Width = 176
+    BorderStyle = bsSingle
+    ClientHeight = 276
+    ClientWidth = 172
+    Color = clSkyBlue
+    ParentColor = False
+    TabOrder = 1
+    Visible = False
+    object Label1: TLabel
+      Left = 1
+      Height = 25
+      Top = 1
+      Width = 170
+      Align = alTop
+      Alignment = taCenter
+      Caption = '~ PAUSED ~'
+      Color = clMenuHighlight
+      Font.Color = clSkyBlue
+      Font.Height = -20
+      Font.Name = 'DejaVu Serif'
+      ParentColor = False
+      ParentFont = False
+      Transparent = False
+    end
+    object btn_resume: TButton
+      Left = 6
+      Height = 40
+      Top = 38
+      Width = 162
+      Caption = 'Resume'
+      Font.Color = clGradientInactiveCaption
+      Font.Height = -20
+      Font.Name = 'DejaVu Serif'
+      OnClick = btn_resumeClick
+      ParentFont = False
+      TabOrder = 0
+    end
+    object btn_quit: TButton
+      Left = 6
+      Height = 40
+      Top = 230
+      Width = 160
+      Caption = 'Exit'
+      Font.Height = -20
+      Font.Name = 'DejaVu Serif'
+      OnClick = btn_quitClick
+      ParentFont = False
+      TabOrder = 1
+    end
+    object btn_about: TButton
+      Left = 6
+      Height = 40
+      Top = 182
+      Width = 160
+      Caption = 'About'
+      Font.Height = -20
+      Font.Name = 'DejaVu Serif'
+      OnClick = btn_aboutClick
+      ParentFont = False
+      TabOrder = 2
+    end
+    object btn_restart: TButton
+      Left = 6
+      Height = 40
+      Top = 86
+      Width = 160
+      Caption = 'Restart'
+      Font.Height = -20
+      Font.Name = 'DejaVu Serif'
+      OnClick = btn_restartClick
+      ParentFont = False
+      TabOrder = 3
+    end
+    object btn_options: TButton
+      Left = 8
+      Height = 40
+      Top = 134
+      Width = 160
+      Caption = 'Options'
+      Font.Height = -20
+      Font.Name = 'DejaVu Serif'
+      OnClick = btn_optionsClick
+      ParentFont = False
+      TabOrder = 4
+    end
+  end
+  object btn_activConsole: TButton
+    Left = 800
+    Height = 25
+    Top = 575
+    Width = 153
+    Caption = 'Enable'
+    OnClick = btn_activConsoleClick
+    TabOrder = 2
+    TabStop = False
+  end
+  object Timer1: TTimer
+    Interval = 10
+    OnTimer = Timer1Timer
+    left = 920
+  end
+end

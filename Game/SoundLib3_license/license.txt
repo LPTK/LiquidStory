@@ -1,0 +1,58 @@
+License agreement
+
+  Copyright agreement, changes reserved.
+  All these statements apply, if not explicitely stated different, on ANY
+  file delivered with this package.
+
+
+::Licensing
+
+  This package is Freeware, as long as the product which uses it, is Freeware.
+
+  You can use it freely in any kind of software with these restrictions:
+
+  . You need to state the name of the package and also the names of the
+    authors who did their hard work in this product on an often seen place
+    of your product (intro/extro/info page etc.). Come on, it's for free, so
+    this is the least thing you can do!
+
+  . THE COMMERCIAL USE IS NOT FREE. You may use this package for commercial
+    software. As long your software containing this library is not published, 
+    you may use it for free -- see it as a trial to examine the libraries.
+    But as soon as you want to publish, you need to contact me for a license. 
+
+    Licenses only apply to the current development branch, e.g. an upgrade from 
+    version 2.0 to 2.x is free, but not from 2.x to 3.x.
+
+  . Parts of this software use a BSD license (OGG/Vorbis and FLAC decoders); see
+    copying.txt for details.
+
+::Code 
+
+  You can use this package entirely in your own programs. Ripping any code 
+  off and/or using parts (unimportant if modified or original) of this package
+  somewhere else, e.g. in other packages, is not allowed without my
+  permission. 
+
+
+::Altering 
+
+  . You are allowed to do modifications on the package. If they are useful, 
+    let me know what you've done and give me the modifications, they may
+    probably help others also.
+
+  . Modifications concerning the existence and/or modification of any
+    copyright/author/name statements are generally not allowed.
+
+  . You are not allowed to publish modified sources, you may only use them in
+    your own productions (where these sources aren't published). Other actions
+    require my permission.
+
+
+::Distribution
+
+  If not differently stated, you aren't allowed to distrubute any of the
+  delivered units single, you have to spread the package with all files.
+
+  If you don't agree with these statements, please erase this sofware.
+  If you don't understand a part, feel free to contact me.

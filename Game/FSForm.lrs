@@ -1,0 +1,10 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TFullScreenForm','FORMDATA',[
+  'TPF0'#15'TFullScreenForm'#14'FullScreenForm'#6'Cursor'#7#4'crNo'#4'Left'#3
+  +#169#5#6'Height'#3#240#0#3'Top'#3#209#0#5'Width'#3'@'#1#11'BorderStyle'#7#6
+  +'bsNone'#7'Caption'#6#17'Fullscreen Window'#5'Color'#7#7'clBlack'#14'Default'
+  +'Monitor'#7#9'dmPrimary'#10'OnActivate'#7#12'FormActivate'#12'OnCloseQuery'#7
+  +#14'FormCloseQuery'#8'OnCreate'#7#10'FormCreate'#8'Position'#7#14'poScreenCe'
+  +'nter'#10'LCLVersion'#6#6'0.9.30'#0#0
+]);

@@ -1,0 +1,11 @@
+
+Liquid Story
+All rights reserved.
+
+Credits:
+Lionel Parreaux - Lead Programmer, artist, coordinator
+Jordan Vincent - Lead Artist, programmer
+Pierre *CURIS* - programmer
+Najoua El-Ouadie - programmer
+Music by Zodiak (Erik Stridell, 1993)
+Sounds and music played using SoundLib3 (www.crossfire-designs.de)

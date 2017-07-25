@@ -1,0 +1,12 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TSplashScreenForm','FORMDATA',[
+  'TPF0'#17'TSplashScreenForm'#16'SplashScreenForm'#4'Left'#3#130#3#6'Height'#3
+  +#180#0#3'Top'#3'R'#1#5'Width'#3#144#1#11'BorderStyle'#7#6'bsNone'#7'Caption'
+  +#6#16'SplashScreenForm'#12'ClientHeight'#3#180#0#11'ClientWidth'#3#144#1#9'F'
+  +'ormStyle'#7#8'fsSplash'#8'OnCreate'#7#10'FormCreate'#8'Position'#7#14'poScr'
+  +'eenCenter'#10'LCLVersion'#6#6'0.9.30'#0#6'TLabel'#6'Label1'#4'Left'#2'>'#6
+  +'Height'#2#14#3'Top'#2'+'#5'Width'#2'2'#7'Caption'#6#10'Loading...'#11'Paren'
+  +'tColor'#8#0#0#6'TImage'#6'Image1'#4'Left'#2#0#6'Height'#3#180#0#3'Top'#2#0#5
+  +'Width'#3#144#1#0#0#0
+]);

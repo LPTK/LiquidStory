@@ -1,0 +1,16 @@
+object FullScreenForm: TFullScreenForm
+  Cursor = crNo
+  Left = 1449
+  Height = 240
+  Top = 209
+  Width = 320
+  BorderStyle = bsNone
+  Caption = 'Fullscreen Window'
+  Color = clBlack
+  DefaultMonitor = dmPrimary
+  OnActivate = FormActivate
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '0.9.30'
+end

@@ -1,0 +1,8 @@
+*.bak
+*.ppu
+*.ppl
+*.o
+*.or
+*.a
+*.so
+*.dll

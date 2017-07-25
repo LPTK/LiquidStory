@@ -1,0 +1,43 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TForm1','FORMDATA',[
+  'TPF0'#6'TForm1'#5'Form1'#6'Cursor'#7#11'crHandPoint'#4'Left'#3'P'#1#6'Height'
+  +#3'X'#2#3'Top'#2'i'#5'Width'#3#184#3#11'BorderIcons'#11#10'biMinimize'#0#11
+  +'BorderStyle'#7#8'bsSingle'#7'Caption'#6#4'Game'#12'ClientHeight'#3'X'#2#11
+  +'ClientWidth'#3#184#3#5'Color'#7#7'clBlack'#14'DefaultMonitor'#7#9'dmPrimary'
+  +#10'OnActivate'#7#12'FormActivate'#7'OnClose'#7#9'FormClose'#8'OnCreate'#7#10
+  +'FormCreate'#12'OnDeactivate'#7#14'FormDeactivate'#10'OnKeyPress'#7#12'FormK'
+  +'eyPress'#7'OnKeyUp'#7#9'FormKeyUp'#11'OnMouseDown'#7#13'FormMouseDown'#11'O'
+  +'nMouseMove'#7#13'FormMouseMove'#9'OnMouseUp'#7#11'FormMouseUp'#12'OnMouseWh'
+  +'eel'#7#14'FormMouseWheel'#10'LCLVersion'#6#6'0.9.30'#0#5'TMemo'#5'Memo1'#4
+  +'Left'#3' '#3#6'Height'#3'@'#2#3'Top'#2#0#5'Width'#3#153#0#7'Enabled'#8#13'L'
+  +'ines.Strings'#1#6#5'Memo1'#0#7'OnClick'#7#10'Memo1Click'#8'ReadOnly'#9#8'Ta'
+  +'bOrder'#2#0#0#0#6'TPanel'#13'pan_pauseMenu'#4'Left'#3'H'#1#6'Height'#3#24#1
+  +#3'Top'#2'x'#5'Width'#3#176#0#11'BorderStyle'#7#8'bsSingle'#12'ClientHeight'
+  +#3#20#1#11'ClientWidth'#3#172#0#5'Color'#7#9'clSkyBlue'#11'ParentColor'#8#8
+  +'TabOrder'#2#1#7'Visible'#8#0#6'TLabel'#6'Label1'#4'Left'#2#1#6'Height'#2#25
+  +#3'Top'#2#1#5'Width'#3#170#0#5'Align'#7#5'alTop'#9'Alignment'#7#8'taCenter'#7
+  +'Caption'#6#10'~ PAUSED ~'#5'Color'#7#15'clMenuHighlight'#10'Font.Color'#7#9
+  +'clSkyBlue'#11'Font.Height'#2#236#9'Font.Name'#6#12'DejaVu Serif'#11'ParentC'
+  +'olor'#8#10'ParentFont'#8#11'Transparent'#8#0#0#7'TButton'#10'btn_resume'#4
+  +'Left'#2#6#6'Height'#2'('#3'Top'#2'&'#5'Width'#3#162#0#7'Caption'#6#6'Resume'
+  +#10'Font.Color'#7#25'clGradientInactiveCaption'#11'Font.Height'#2#236#9'Font'
+  +'.Name'#6#12'DejaVu Serif'#7'OnClick'#7#15'btn_resumeClick'#10'ParentFont'#8
+  +#8'TabOrder'#2#0#0#0#7'TButton'#8'btn_quit'#4'Left'#2#6#6'Height'#2'('#3'Top'
+  +#3#230#0#5'Width'#3#160#0#7'Caption'#6#4'Exit'#11'Font.Height'#2#236#9'Font.'
+  +'Name'#6#12'DejaVu Serif'#7'OnClick'#7#13'btn_quitClick'#10'ParentFont'#8#8
+  +'TabOrder'#2#1#0#0#7'TButton'#9'btn_about'#4'Left'#2#6#6'Height'#2'('#3'Top'
+  +#3#182#0#5'Width'#3#160#0#7'Caption'#6#5'About'#11'Font.Height'#2#236#9'Font'
+  +'.Name'#6#12'DejaVu Serif'#7'OnClick'#7#14'btn_aboutClick'#10'ParentFont'#8#8
+  +'TabOrder'#2#2#0#0#7'TButton'#11'btn_restart'#4'Left'#2#6#6'Height'#2'('#3'T'
+  +'op'#2'V'#5'Width'#3#160#0#7'Caption'#6#7'Restart'#11'Font.Height'#2#236#9'F'
+  +'ont.Name'#6#12'DejaVu Serif'#7'OnClick'#7#16'btn_restartClick'#10'ParentFon'
+  +'t'#8#8'TabOrder'#2#3#0#0#7'TButton'#11'btn_options'#4'Left'#2#8#6'Height'#2
+  +'('#3'Top'#3#134#0#5'Width'#3#160#0#7'Caption'#6#7'Options'#11'Font.Height'#2
+  +#236#9'Font.Name'#6#12'DejaVu Serif'#7'OnClick'#7#16'btn_optionsClick'#10'Pa'
+  +'rentFont'#8#8'TabOrder'#2#4#0#0#0#7'TButton'#16'btn_activConsole'#4'Left'#3
+  +' '#3#6'Height'#2#25#3'Top'#3'?'#2#5'Width'#3#153#0#7'Caption'#6#6'Enable'#7
+  +'OnClick'#7#21'btn_activConsoleClick'#8'TabOrder'#2#2#7'TabStop'#8#0#0#6'TTi'
+  +'mer'#6'Timer1'#8'Interval'#2#10#7'OnTimer'#7#11'Timer1Timer'#4'left'#3#152#3
+  +#0#0#0
+]);
